@@ -9,6 +9,8 @@ public class CibiPreferiti {
 		System.out.println("Il cibo top è: " + classificaCibi[0]);
 		System.out.println("Il cibo preferito ma non troppo è: " + classificaCibi[classificaCibi.length - 1]);
 		
+		int posizioneMediana = classificaCibi.length / 2;
+		System.out.println("Il cibo di mezza classifica è: " + classificaCibi[posizioneMediana]);
 	}
 
 }
